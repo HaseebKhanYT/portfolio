@@ -9,11 +9,7 @@ import Vue from 'vue';
 import Home from '@/views/Home.vue';
 import Component from 'vue-class-component';
 
-@Component({
-  components:{
-    Home,
-  },
-})
+
 export default class App extends Vue {
   
 }

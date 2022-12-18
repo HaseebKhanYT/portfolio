@@ -4,27 +4,12 @@
       <h1>This Website is currently being developed...</h1>
 
     </div>
-    <div class="bg-dark-blue full-height m-0 p-0">
-      
-    </div>
-    <div class="bg-dark-blue full-height m-0 p-0">
-      <h1>Hey this is Home Component</h1>
-
-    </div>
-    <div id="footer" class="bg-darkest-blue full-height m-0 p-0">
-      <h1>Hey this is Footer</h1>
-
-    </div>
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
 
-@Component({
-  components: {
-  },
-})
 export default class Home extends Vue {}
 </script>
 
